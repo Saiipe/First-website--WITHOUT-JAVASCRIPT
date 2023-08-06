@@ -1,4 +1,4 @@
-# First-website--WITHOUT-JAVASCRIPT
+# First-website
  um site que fiz sem usar JavaScript, apenas para reforçar meus estudos
 
    English
