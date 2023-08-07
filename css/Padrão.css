@@ -1,0 +1,27 @@
+.Nome {
+    text-align: center;
+}
+
+#icon-nome {
+    width: 40px;
+}
+
+.credit {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+}
+
+#verificado {
+    position: relative;
+    width: 27px;
+    bottom: -5px;
+}
+
+
+body {
+    background-image: linear-gradient(rgba(116, 116, 116, 0.524) 1%, aqua, rgba(116, 116, 116, 0.524));
+}
