@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 
-<body>
+<body class="back">
+
     <!--Retornar ao topo do site-->
     <header class="Nome">
         <a href="#">
@@ -23,34 +24,46 @@
     <!--menu de navegação-->
     <nav>
         <ul class="menu">
-            <li> <a href="sobre.html">Sobre mim</a></li>
+            <li><a href="sobre.html">Sobre mim</a></li>
             <li><a href="experiencias.html">Experiencias</a></li>
             <li><a href="Contatos.html">Contatos</a></li>
         </ul>
     </nav>
-    <br>
-    <!--editar o sobre mim-->
-    <section>
-        <h2>Breve resumo.</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, ipsa fugiat, dolorum velit dolore ipsum
-            quis
-            et assumenda dolores consectetur quibusdam recusandae nisi repudiandae ducimus fuga eius voluptatibus cumque
-            blanditiis!</p>
-        <!--alterar-->
-        <img src="https://picsum.photos/300/300" width="300">
-        <a href="#">Sobre mim.</a>
-    </section>
-    <article>
-        <h2>Habilidades</h2>
-        <img src="img/Equipe.png" alt="Trabalho em equipe">Unindo habilidades diversas, criamos soluções excepcionais
-        como equipe.
-        <img src="img/esforco.png" alt="Esforços">Persistir em esforços contínuos é a chave para alcançar objetivos
-        significativos.
-        <img src="img/tempo.png" alt="tempo">O tempo é um recurso precioso; usá-lo com sabedoria é a base do sucesso.
-    </article>
+    <div class="container">
+        <br>
+        <!--editar o sobre mim-->
+        <section class="info">
+            <div>
+                <h2>Breve resumo.</h2>
+                <p id="paraf">Lorem ipsum dolor sit amet consectetur adipisicing elit.Ratione, ipsa fugiat, dolorum
+                    velit
+                    dolore ipsum quiset assumenda dolores consectetur quibusdam.recusandae nisi repudiandae ducimus fuga
+                    eius
+                    voluptatibus cumque
+                    blanditiis! <a href="#">Sobre mim.</a></p>
+            </div>
+            <!--alterar-->
+            <img id="foto" src="https://picsum.photos/400/400">
+        </section>
 
-    <br><br>
-    <hr>
+        <br><br>
+        <article>
+            <h2 style="clear:both">Habilidades</h2>
+            <img class="icon" src="img/Equipe.png" alt="Trabalho em equipe">Unindo habilidades diversas, criamos
+            soluções excepcionais
+            como equipe.
+            <img class="icon" src="img/esforco.png" alt="Esforços">Persistir em esforços contínuos é a chave para
+            alcançar objetivos
+            significativos.
+            <img class="icon" src="img/tempo.png" alt="tempo">O tempo é um recurso precioso; usá-lo com sabedoria é
+            a
+            base do
+            sucesso.
+        </article>
+
+        <br><br>
+        <hr>
+    </div>
     <footer>
         <p class="credit"><a class="credit" href="https://github.com/Saiipe">Credit: Saipe <img id="verificado"
                     src="img/verificado.png" alt="verificado"></a></p>
